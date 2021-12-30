@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D694219A25419DC700900357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694219925419DC700900357 /* AppDelegate.swift */; };
+		D694219C25419DC700900357 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694219B25419DC700900357 /* SceneDelegate.swift */; };
+		D694219E25419DC700900357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D694219D25419DC700900357 /* ContentView.swift */; };
+		D69421A025419DCA00900357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D694219F25419DCA00900357 /* Assets.xcassets */; };
+		D69421A325419DCA00900357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69421A225419DCA00900357 /* Preview Assets.xcassets */; };
+		D69421A625419DCA00900357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69421A425419DCA00900357 /* LaunchScreen.storyboard */; };
+		D69421B125419DCA00900357 /* TattoONmyARMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69421B025419DCA00900357 /* TattoONmyARMTests.swift */; };
+		D69421BC25419DCA00900357 /* TattoONmyARMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69421BB25419DCA00900357 /* TattoONmyARMUITests.swift */; };
+		D69421D02541ABC700900357 /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = D69421CF2541ABC700900357 /* b1.png */; };
+		D69421D52541B03600900357 /* ShareImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69421D42541B03600900357 /* ShareImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69421AD25419DCA00900357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D694218E25419DC700900357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D694219525419DC700900357;
+			remoteInfo = TattoONmyARM;
+		};
+		D69421B825419DCA00900357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D694218E25419DC700900357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D694219525419DC700900357;
+			remoteInfo = TattoONmyARM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D694219625419DC700900357 /* TattoONmyARM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TattoONmyARM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D694219925419DC700900357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D694219B25419DC700900357 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D694219D25419DC700900357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D694219F25419DCA00900357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69421A225419DCA00900357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D69421A525419DCA00900357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D69421A725419DCA00900357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69421AC25419DCA00900357 /* TattoONmyARMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TattoONmyARMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69421B025419DCA00900357 /* TattoONmyARMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoONmyARMTests.swift; sourceTree = "<group>"; };
+		D69421B225419DCA00900357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69421B725419DCA00900357 /* TattoONmyARMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TattoONmyARMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69421BB25419DCA00900357 /* TattoONmyARMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoONmyARMUITests.swift; sourceTree = "<group>"; };
+		D69421BD25419DCA00900357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69421CF2541ABC700900357 /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
+		D69421D42541B03600900357 /* ShareImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D694219325419DC700900357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69421A925419DCA00900357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69421B425419DCA00900357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D694218D25419DC700900357 = {
+			isa = PBXGroup;
+			children = (
+				D694219825419DC700900357 /* TattoONmyARM */,
+				D69421AF25419DCA00900357 /* TattoONmyARMTests */,
+				D69421BA25419DCA00900357 /* TattoONmyARMUITests */,
+				D694219725419DC700900357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D694219725419DC700900357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D694219625419DC700900357 /* TattoONmyARM.app */,
+				D69421AC25419DCA00900357 /* TattoONmyARMTests.xctest */,
+				D69421B725419DCA00900357 /* TattoONmyARMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D694219825419DC700900357 /* TattoONmyARM */ = {
+			isa = PBXGroup;
+			children = (
+				D694219925419DC700900357 /* AppDelegate.swift */,
+				D694219B25419DC700900357 /* SceneDelegate.swift */,
+				D694219D25419DC700900357 /* ContentView.swift */,
+				D69421CF2541ABC700900357 /* b1.png */,
+				D694219F25419DCA00900357 /* Assets.xcassets */,
+				D69421A425419DCA00900357 /* LaunchScreen.storyboard */,
+				D69421A725419DCA00900357 /* Info.plist */,
+				D69421A125419DCA00900357 /* Preview Content */,
+				D69421D42541B03600900357 /* ShareImage.swift */,
+			);
+			path = TattoONmyARM;
+			sourceTree = "<group>";
+		};
+		D69421A125419DCA00900357 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D69421A225419DCA00900357 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D69421AF25419DCA00900357 /* TattoONmyARMTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69421B025419DCA00900357 /* TattoONmyARMTests.swift */,
+				D69421B225419DCA00900357 /* Info.plist */,
+			);
+			path = TattoONmyARMTests;
+			sourceTree = "<group>";
+		};
+		D69421BA25419DCA00900357 /* TattoONmyARMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69421BB25419DCA00900357 /* TattoONmyARMUITests.swift */,
+				D69421BD25419DCA00900357 /* Info.plist */,
+			);
+			path = TattoONmyARMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D694219525419DC700900357 /* TattoONmyARM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69421C025419DCA00900357 /* Build configuration list for PBXNativeTarget "TattoONmyARM" */;
+			buildPhases = (
+				D694219225419DC700900357 /* Sources */,
+				D694219325419DC700900357 /* Frameworks */,
+				D694219425419DC700900357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TattoONmyARM;
+			productName = TattoONmyARM;
+			productReference = D694219625419DC700900357 /* TattoONmyARM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69421AB25419DCA00900357 /* TattoONmyARMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69421C325419DCA00900357 /* Build configuration list for PBXNativeTarget "TattoONmyARMTests" */;
+			buildPhases = (
+				D69421A825419DCA00900357 /* Sources */,
+				D69421A925419DCA00900357 /* Frameworks */,
+				D69421AA25419DCA00900357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69421AE25419DCA00900357 /* PBXTargetDependency */,
+			);
+			name = TattoONmyARMTests;
+			productName = TattoONmyARMTests;
+			productReference = D69421AC25419DCA00900357 /* TattoONmyARMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69421B625419DCA00900357 /* TattoONmyARMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69421C625419DCA00900357 /* Build configuration list for PBXNativeTarget "TattoONmyARMUITests" */;
+			buildPhases = (
+				D69421B325419DCA00900357 /* Sources */,
+				D69421B425419DCA00900357 /* Frameworks */,
+				D69421B525419DCA00900357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69421B925419DCA00900357 /* PBXTargetDependency */,
+			);
+			name = TattoONmyARMUITests;
+			productName = TattoONmyARMUITests;
+			productReference = D69421B725419DCA00900357 /* TattoONmyARMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D694218E25419DC700900357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D694219525419DC700900357 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D69421AB25419DCA00900357 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D694219525419DC700900357;
+					};
+					D69421B625419DCA00900357 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D694219525419DC700900357;
+					};
+				};
+			};
+			buildConfigurationList = D694219125419DC700900357 /* Build configuration list for PBXProject "TattoONmyARM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D694218D25419DC700900357;
+			productRefGroup = D694219725419DC700900357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D694219525419DC700900357 /* TattoONmyARM */,
+				D69421AB25419DCA00900357 /* TattoONmyARMTests */,
+				D69421B625419DCA00900357 /* TattoONmyARMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D694219425419DC700900357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69421D02541ABC700900357 /* b1.png in Resources */,
+				D69421A625419DCA00900357 /* LaunchScreen.storyboard in Resources */,
+				D69421A325419DCA00900357 /* Preview Assets.xcassets in Resources */,
+				D69421A025419DCA00900357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69421AA25419DCA00900357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69421B525419DCA00900357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D694219225419DC700900357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D694219A25419DC700900357 /* AppDelegate.swift in Sources */,
+				D69421D52541B03600900357 /* ShareImage.swift in Sources */,
+				D694219C25419DC700900357 /* SceneDelegate.swift in Sources */,
+				D694219E25419DC700900357 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69421A825419DCA00900357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69421B125419DCA00900357 /* TattoONmyARMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69421B325419DCA00900357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69421BC25419DCA00900357 /* TattoONmyARMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69421AE25419DCA00900357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D694219525419DC700900357 /* TattoONmyARM */;
+			targetProxy = D69421AD25419DCA00900357 /* PBXContainerItemProxy */;
+		};
+		D69421B925419DCA00900357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D694219525419DC700900357 /* TattoONmyARM */;
+			targetProxy = D69421B825419DCA00900357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D69421A425419DCA00900357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69421A525419DCA00900357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D69421BE25419DCA00900357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69421BF25419DCA00900357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69421C125419DCA00900357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TattoONmyARM/Preview Content\"";
+				DEVELOPMENT_TEAM = B8QYTV3FPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TattoONmyARM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.TattoONmyARM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69421C225419DCA00900357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TattoONmyARM/Preview Content\"";
+				DEVELOPMENT_TEAM = B8QYTV3FPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TattoONmyARM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.TattoONmyARM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69421C425419DCA00900357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TattoONmyARMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.TattoONmyARMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TattoONmyARM.app/TattoONmyARM";
+			};
+			name = Debug;
+		};
+		D69421C525419DCA00900357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TattoONmyARMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.TattoONmyARMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TattoONmyARM.app/TattoONmyARM";
+			};
+			name = Release;
+		};
+		D69421C725419DCA00900357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TattoONmyARMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.TattoONmyARMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TattoONmyARM;
+			};
+			name = Debug;
+		};
+		D69421C825419DCA00900357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TattoONmyARMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.TattoONmyARMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TattoONmyARM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D694219125419DC700900357 /* Build configuration list for PBXProject "TattoONmyARM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69421BE25419DCA00900357 /* Debug */,
+				D69421BF25419DCA00900357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69421C025419DCA00900357 /* Build configuration list for PBXNativeTarget "TattoONmyARM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69421C125419DCA00900357 /* Debug */,
+				D69421C225419DCA00900357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69421C325419DCA00900357 /* Build configuration list for PBXNativeTarget "TattoONmyARMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69421C425419DCA00900357 /* Debug */,
+				D69421C525419DCA00900357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69421C625419DCA00900357 /* Build configuration list for PBXNativeTarget "TattoONmyARMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69421C725419DCA00900357 /* Debug */,
+				D69421C825419DCA00900357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D694218E25419DC700900357 /* Project object */;
+}

@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B704B2D81A0CE428813B2E /* Pods_BookMyMeeting_BookMyMeetingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9BD286F66C69A8569A8C2E /* Pods_BookMyMeeting_BookMyMeetingUITests.framework */; };
+		5A930FD5DAD178F1C6FA5B40 /* Pods_BookMyMeeting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6319712BD03DDDB129694AA9 /* Pods_BookMyMeeting.framework */; };
+		BF061A8171EEA34D087070AC /* Pods_BookMyMeetingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A3D05D7043A7BFD5A5A570 /* Pods_BookMyMeetingTests.framework */; };
+		D615CDFC251A0F670074FE44 /* login-anim.gif in Resources */ = {isa = PBXBuildFile; fileRef = D615CDFB251A0F670074FE44 /* login-anim.gif */; };
+		D615CE02251A10810074FE44 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D615CE01251A10810074FE44 /* iOSDevCenters+GIF.swift */; };
+		D615CE0C251A18630074FE44 /* MeetingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D615CE0B251A18630074FE44 /* MeetingModel.swift */; };
+		D615CE15251A18F20074FE44 /* MeetingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D615CE13251A18F20074FE44 /* MeetingTableViewCell.swift */; };
+		D615CE16251A18F20074FE44 /* MeetingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D615CE14251A18F20074FE44 /* MeetingTableViewCell.xib */; };
+		D615CE1B251A1BDF0074FE44 /* csvjson.json in Resources */ = {isa = PBXBuildFile; fileRef = D615CE1A251A1BDF0074FE44 /* csvjson.json */; };
+		D615CE20251A1FAC0074FE44 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = D615CE1F251A1FAC0074FE44 /* Employee.swift */; };
+		D622F4932519F6BA0075A93B /* BookMeetingBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D622F4922519F6BA0075A93B /* BookMeetingBaseViewController.swift */; };
+		D6518E8F251B31AA00D6729F /* MemberNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6518E8E251B31AA00D6729F /* MemberNameTableViewCell.swift */; };
+		D6518ECE251B42C700D6729F /* AddNewMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6518ECD251B42C700D6729F /* AddNewMeetingViewController.swift */; };
+		D6518ED4251B49E500D6729F /* MeetingMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6518ED2251B49E500D6729F /* MeetingMemberTableViewCell.swift */; };
+		D6518ED5251B49E500D6729F /* MeetingMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6518ED3251B49E500D6729F /* MeetingMemberTableViewCell.xib */; };
+		D655403725219D6000614E8A /* EditMeetingSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D655403625219D6000614E8A /* EditMeetingSwiftUIView.swift */; };
+		D6561E5F251B0623002D42B1 /* MeetingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6561E5E251B0623002D42B1 /* MeetingDetailViewController.swift */; };
+		D6561E65251B1AA5002D42B1 /* UIExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6561E64251B1AA5002D42B1 /* UIExtentions.swift */; };
+		D66D8A86251DADD900729048 /* FirebaseAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66D8A85251DADD900729048 /* FirebaseAuthentication.swift */; };
+		D671CDC02525B5550076BB02 /* FireDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D671CDBF2525B5550076BB02 /* FireDBHelper.swift */; };
+		D6DDC269251C641800341848 /* DateTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDC268251C641800341848 /* DateTimePickerView.swift */; };
+		D6FBD2002519D74000B5863D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD1FF2519D74000B5863D /* AppDelegate.swift */; };
+		D6FBD2022519D74000B5863D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD2012519D74000B5863D /* SceneDelegate.swift */; };
+		D6FBD2042519D74000B5863D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD2032519D74000B5863D /* ViewController.swift */; };
+		D6FBD2072519D74000B5863D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FBD2052519D74000B5863D /* Main.storyboard */; };
+		D6FBD2092519D74200B5863D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FBD2082519D74200B5863D /* Assets.xcassets */; };
+		D6FBD20C2519D74200B5863D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FBD20A2519D74200B5863D /* LaunchScreen.storyboard */; };
+		D6FBD2172519D74200B5863D /* BookMyMeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD2162519D74200B5863D /* BookMyMeetingTests.swift */; };
+		D6FBD2222519D74200B5863D /* BookMyMeetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD2212519D74200B5863D /* BookMyMeetingUITests.swift */; };
+		D6FBD24B2519DCDC00B5863D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6FBD24A2519DCDC00B5863D /* GoogleService-Info.plist */; };
+		D6FBD2682519EF2D00B5863D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FBD2672519EF2D00B5863D /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6FBD2132519D74200B5863D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FBD1F42519D74000B5863D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FBD1FB2519D74000B5863D;
+			remoteInfo = BookMyMeeting;
+		};
+		D6FBD21E2519D74200B5863D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FBD1F42519D74000B5863D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FBD1FB2519D74000B5863D;
+			remoteInfo = BookMyMeeting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27A3D05D7043A7BFD5A5A570 /* Pods_BookMyMeetingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMyMeetingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6319712BD03DDDB129694AA9 /* Pods_BookMyMeeting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMyMeeting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BE2B9427B406D223DEB2ED /* Pods-BookMyMeeting-BookMyMeetingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyMeeting-BookMyMeetingUITests.debug.xcconfig"; path = "Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0A8B777A19BC8431523F71 /* Pods-BookMyMeetingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyMeetingTests.debug.xcconfig"; path = "Target Support Files/Pods-BookMyMeetingTests/Pods-BookMyMeetingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B2EF4AA3E2252C752A43D9A /* Pods-BookMyMeeting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyMeeting.debug.xcconfig"; path = "Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting.debug.xcconfig"; sourceTree = "<group>"; };
+		AC9BD286F66C69A8569A8C2E /* Pods_BookMyMeeting_BookMyMeetingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookMyMeeting_BookMyMeetingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADACCEF4D720D7D9A27BDB0A /* Pods-BookMyMeeting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyMeeting.release.xcconfig"; path = "Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting.release.xcconfig"; sourceTree = "<group>"; };
+		CE2B0BD604C2992A773845E7 /* Pods-BookMyMeetingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyMeetingTests.release.xcconfig"; path = "Target Support Files/Pods-BookMyMeetingTests/Pods-BookMyMeetingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF1C352614A9E159419108EE /* Pods-BookMyMeeting-BookMyMeetingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookMyMeeting-BookMyMeetingUITests.release.xcconfig"; path = "Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D615CDFB251A0F670074FE44 /* login-anim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "login-anim.gif"; sourceTree = "<group>"; };
+		D615CE01251A10810074FE44 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		D615CE0B251A18630074FE44 /* MeetingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModel.swift; sourceTree = "<group>"; };
+		D615CE13251A18F20074FE44 /* MeetingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTableViewCell.swift; sourceTree = "<group>"; };
+		D615CE14251A18F20074FE44 /* MeetingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingTableViewCell.xib; sourceTree = "<group>"; };
+		D615CE1A251A1BDF0074FE44 /* csvjson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = csvjson.json; sourceTree = "<group>"; };
+		D615CE1F251A1FAC0074FE44 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		D622F4922519F6BA0075A93B /* BookMeetingBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMeetingBaseViewController.swift; sourceTree = "<group>"; };
+		D6518E8E251B31AA00D6729F /* MemberNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberNameTableViewCell.swift; sourceTree = "<group>"; };
+		D6518ECD251B42C700D6729F /* AddNewMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewMeetingViewController.swift; sourceTree = "<group>"; };
+		D6518ED2251B49E500D6729F /* MeetingMemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMemberTableViewCell.swift; sourceTree = "<group>"; };
+		D6518ED3251B49E500D6729F /* MeetingMemberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeetingMemberTableViewCell.xib; sourceTree = "<group>"; };
+		D655403625219D6000614E8A /* EditMeetingSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetingSwiftUIView.swift; sourceTree = "<group>"; };
+		D6561E5E251B0623002D42B1 /* MeetingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetailViewController.swift; sourceTree = "<group>"; };
+		D6561E64251B1AA5002D42B1 /* UIExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtentions.swift; sourceTree = "<group>"; };
+		D66D8A85251DADD900729048 /* FirebaseAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthentication.swift; sourceTree = "<group>"; };
+		D671CDBF2525B5550076BB02 /* FireDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireDBHelper.swift; sourceTree = "<group>"; };
+		D6DDC268251C641800341848 /* DateTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimePickerView.swift; sourceTree = "<group>"; };
+		D6FBD1FC2519D74000B5863D /* BookMyMeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMyMeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FBD1FF2519D74000B5863D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6FBD2012519D74000B5863D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6FBD2032519D74000B5863D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6FBD2062519D74000B5863D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6FBD2082519D74200B5863D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FBD20B2519D74200B5863D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6FBD20D2519D74200B5863D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FBD2122519D74200B5863D /* BookMyMeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyMeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FBD2162519D74200B5863D /* BookMyMeetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMyMeetingTests.swift; sourceTree = "<group>"; };
+		D6FBD2182519D74200B5863D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FBD21D2519D74200B5863D /* BookMyMeetingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMyMeetingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FBD2212519D74200B5863D /* BookMyMeetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMyMeetingUITests.swift; sourceTree = "<group>"; };
+		D6FBD2232519D74200B5863D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FBD24A2519DCDC00B5863D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6FBD2672519EF2D00B5863D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6FBD1F92519D74000B5863D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A930FD5DAD178F1C6FA5B40 /* Pods_BookMyMeeting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FBD20F2519D74200B5863D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF061A8171EEA34D087070AC /* Pods_BookMyMeetingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FBD21A2519D74200B5863D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B704B2D81A0CE428813B2E /* Pods_BookMyMeeting_BookMyMeetingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853A501BE985B11B7F4B3FFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6319712BD03DDDB129694AA9 /* Pods_BookMyMeeting.framework */,
+				AC9BD286F66C69A8569A8C2E /* Pods_BookMyMeeting_BookMyMeetingUITests.framework */,
+				27A3D05D7043A7BFD5A5A570 /* Pods_BookMyMeetingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEEC8038D990A0857D81FCCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B2EF4AA3E2252C752A43D9A /* Pods-BookMyMeeting.debug.xcconfig */,
+				ADACCEF4D720D7D9A27BDB0A /* Pods-BookMyMeeting.release.xcconfig */,
+				67BE2B9427B406D223DEB2ED /* Pods-BookMyMeeting-BookMyMeetingUITests.debug.xcconfig */,
+				CF1C352614A9E159419108EE /* Pods-BookMyMeeting-BookMyMeetingUITests.release.xcconfig */,
+				8D0A8B777A19BC8431523F71 /* Pods-BookMyMeetingTests.debug.xcconfig */,
+				CE2B0BD604C2992A773845E7 /* Pods-BookMyMeetingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D615CE00251A10720074FE44 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D615CE01251A10810074FE44 /* iOSDevCenters+GIF.swift */,
+				D66D8A85251DADD900729048 /* FirebaseAuthentication.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		D615CE09251A174A0074FE44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D615CE13251A18F20074FE44 /* MeetingTableViewCell.swift */,
+				D615CE14251A18F20074FE44 /* MeetingTableViewCell.xib */,
+				D6518E8E251B31AA00D6729F /* MemberNameTableViewCell.swift */,
+				D6518ED2251B49E500D6729F /* MeetingMemberTableViewCell.swift */,
+				D6518ED3251B49E500D6729F /* MeetingMemberTableViewCell.xib */,
+				D6DDC268251C641800341848 /* DateTimePickerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D615CE0A251A18530074FE44 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D615CE0B251A18630074FE44 /* MeetingModel.swift */,
+				D615CE1F251A1FAC0074FE44 /* Employee.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D622F48A2519F6590075A93B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD2032519D74000B5863D /* ViewController.swift */,
+				D6FBD2672519EF2D00B5863D /* WelcomeViewController.swift */,
+				D622F4922519F6BA0075A93B /* BookMeetingBaseViewController.swift */,
+				D6561E5E251B0623002D42B1 /* MeetingDetailViewController.swift */,
+				D6518ECD251B42C700D6729F /* AddNewMeetingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D622F48E2519F66A0075A93B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD2052519D74000B5863D /* Main.storyboard */,
+				D6FBD20A2519D74200B5863D /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		D6561E63251B1A87002D42B1 /* Helper+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D6561E64251B1AA5002D42B1 /* UIExtentions.swift */,
+			);
+			path = "Helper+Extension";
+			sourceTree = "<group>";
+		};
+		D68583EA2521CCEC009B131D /* SwiftUIDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				D655403625219D6000614E8A /* EditMeetingSwiftUIView.swift */,
+			);
+			path = SwiftUIDevelopment;
+			sourceTree = "<group>";
+		};
+		D6FBD1F32519D74000B5863D = {
+			isa = PBXGroup;
+			children = (
+				D6FBD1FE2519D74000B5863D /* BookMyMeeting */,
+				D6FBD2152519D74200B5863D /* BookMyMeetingTests */,
+				D6FBD2202519D74200B5863D /* BookMyMeetingUITests */,
+				D6FBD1FD2519D74000B5863D /* Products */,
+				AEEC8038D990A0857D81FCCA /* Pods */,
+				853A501BE985B11B7F4B3FFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6FBD1FD2519D74000B5863D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD1FC2519D74000B5863D /* BookMyMeeting.app */,
+				D6FBD2122519D74200B5863D /* BookMyMeetingTests.xctest */,
+				D6FBD21D2519D74200B5863D /* BookMyMeetingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6FBD1FE2519D74000B5863D /* BookMyMeeting */ = {
+			isa = PBXGroup;
+			children = (
+				D6561E63251B1A87002D42B1 /* Helper+Extension */,
+				D615CE0A251A18530074FE44 /* Class */,
+				D615CE09251A174A0074FE44 /* View */,
+				D615CE00251A10720074FE44 /* Lib */,
+				D622F48E2519F66A0075A93B /* StoryBoards */,
+				D68583EA2521CCEC009B131D /* SwiftUIDevelopment */,
+				D622F48A2519F6590075A93B /* ViewController */,
+				D6FBD1FF2519D74000B5863D /* AppDelegate.swift */,
+				D6FBD2012519D74000B5863D /* SceneDelegate.swift */,
+				D6FBD2082519D74200B5863D /* Assets.xcassets */,
+				D6FBD20D2519D74200B5863D /* Info.plist */,
+				D615CDFB251A0F670074FE44 /* login-anim.gif */,
+				D615CE1A251A1BDF0074FE44 /* csvjson.json */,
+				D6FBD24A2519DCDC00B5863D /* GoogleService-Info.plist */,
+				D671CDBF2525B5550076BB02 /* FireDBHelper.swift */,
+			);
+			path = BookMyMeeting;
+			sourceTree = "<group>";
+		};
+		D6FBD2152519D74200B5863D /* BookMyMeetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD2162519D74200B5863D /* BookMyMeetingTests.swift */,
+				D6FBD2182519D74200B5863D /* Info.plist */,
+			);
+			path = BookMyMeetingTests;
+			sourceTree = "<group>";
+		};
+		D6FBD2202519D74200B5863D /* BookMyMeetingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FBD2212519D74200B5863D /* BookMyMeetingUITests.swift */,
+				D6FBD2232519D74200B5863D /* Info.plist */,
+			);
+			path = BookMyMeetingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6FBD1FB2519D74000B5863D /* BookMyMeeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FBD2262519D74200B5863D /* Build configuration list for PBXNativeTarget "BookMyMeeting" */;
+			buildPhases = (
+				283BE6CA5F25266BD6FE0C0A /* [CP] Check Pods Manifest.lock */,
+				D6FBD1F82519D74000B5863D /* Sources */,
+				D6FBD1F92519D74000B5863D /* Frameworks */,
+				D6FBD1FA2519D74000B5863D /* Resources */,
+				4AB60E7DE04B34B6684E3D48 /* [CP] Embed Pods Frameworks */,
+				B8DAE8DD5A8D693523FC77BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookMyMeeting;
+			productName = BookMyMeeting;
+			productReference = D6FBD1FC2519D74000B5863D /* BookMyMeeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FBD2112519D74200B5863D /* BookMyMeetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FBD2292519D74200B5863D /* Build configuration list for PBXNativeTarget "BookMyMeetingTests" */;
+			buildPhases = (
+				278C2718AE449AAA1CCB52FC /* [CP] Check Pods Manifest.lock */,
+				D6FBD20E2519D74200B5863D /* Sources */,
+				D6FBD20F2519D74200B5863D /* Frameworks */,
+				D6FBD2102519D74200B5863D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FBD2142519D74200B5863D /* PBXTargetDependency */,
+			);
+			name = BookMyMeetingTests;
+			productName = BookMyMeetingTests;
+			productReference = D6FBD2122519D74200B5863D /* BookMyMeetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FBD21C2519D74200B5863D /* BookMyMeetingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FBD22C2519D74200B5863D /* Build configuration list for PBXNativeTarget "BookMyMeetingUITests" */;
+			buildPhases = (
+				9C26E4194820B5B0A6E25B8E /* [CP] Check Pods Manifest.lock */,
+				D6FBD2192519D74200B5863D /* Sources */,
+				D6FBD21A2519D74200B5863D /* Frameworks */,
+				D6FBD21B2519D74200B5863D /* Resources */,
+				6036E9E6D3C37902434EB149 /* [CP] Embed Pods Frameworks */,
+				724C474E5C9E289CC340333C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FBD21F2519D74200B5863D /* PBXTargetDependency */,
+			);
+			name = BookMyMeetingUITests;
+			productName = BookMyMeetingUITests;
+			productReference = D6FBD21D2519D74200B5863D /* BookMyMeetingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FBD1F42519D74000B5863D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D6FBD1FB2519D74000B5863D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					D6FBD2112519D74200B5863D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D6FBD1FB2519D74000B5863D;
+					};
+					D6FBD21C2519D74200B5863D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = D6FBD1FB2519D74000B5863D;
+					};
+				};
+			};
+			buildConfigurationList = D6FBD1F72519D74000B5863D /* Build configuration list for PBXProject "BookMyMeeting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6FBD1F32519D74000B5863D;
+			productRefGroup = D6FBD1FD2519D74000B5863D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FBD1FB2519D74000B5863D /* BookMyMeeting */,
+				D6FBD2112519D74200B5863D /* BookMyMeetingTests */,
+				D6FBD21C2519D74200B5863D /* BookMyMeetingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6FBD1FA2519D74000B5863D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FBD20C2519D74200B5863D /* LaunchScreen.storyboard in Resources */,
+				D615CE16251A18F20074FE44 /* MeetingTableViewCell.xib in Resources */,
+				D615CE1B251A1BDF0074FE44 /* csvjson.json in Resources */,
+				D6518ED5251B49E500D6729F /* MeetingMemberTableViewCell.xib in Resources */,
+				D6FBD24B2519DCDC00B5863D /* GoogleService-Info.plist in Resources */,
+				D6FBD2092519D74200B5863D /* Assets.xcassets in Resources */,
+				D6FBD2072519D74000B5863D /* Main.storyboard in Resources */,
+				D615CDFC251A0F670074FE44 /* login-anim.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FBD2102519D74200B5863D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FBD21B2519D74200B5863D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		278C2718AE449AAA1CCB52FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookMyMeetingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		283BE6CA5F25266BD6FE0C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookMyMeeting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB60E7DE04B34B6684E3D48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6036E9E6D3C37902434EB149 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		724C474E5C9E289CC340333C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting-BookMyMeetingUITests/Pods-BookMyMeeting-BookMyMeetingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C26E4194820B5B0A6E25B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookMyMeeting-BookMyMeetingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DAE8DD5A8D693523FC77BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookMyMeeting/Pods-BookMyMeeting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6FBD1F82519D74000B5863D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D622F4932519F6BA0075A93B /* BookMeetingBaseViewController.swift in Sources */,
+				D615CE20251A1FAC0074FE44 /* Employee.swift in Sources */,
+				D615CE15251A18F20074FE44 /* MeetingTableViewCell.swift in Sources */,
+				D6561E65251B1AA5002D42B1 /* UIExtentions.swift in Sources */,
+				D655403725219D6000614E8A /* EditMeetingSwiftUIView.swift in Sources */,
+				D6518E8F251B31AA00D6729F /* MemberNameTableViewCell.swift in Sources */,
+				D615CE0C251A18630074FE44 /* MeetingModel.swift in Sources */,
+				D671CDC02525B5550076BB02 /* FireDBHelper.swift in Sources */,
+				D6DDC269251C641800341848 /* DateTimePickerView.swift in Sources */,
+				D615CE02251A10810074FE44 /* iOSDevCenters+GIF.swift in Sources */,
+				D66D8A86251DADD900729048 /* FirebaseAuthentication.swift in Sources */,
+				D6FBD2042519D74000B5863D /* ViewController.swift in Sources */,
+				D6518ECE251B42C700D6729F /* AddNewMeetingViewController.swift in Sources */,
+				D6FBD2682519EF2D00B5863D /* WelcomeViewController.swift in Sources */,
+				D6518ED4251B49E500D6729F /* MeetingMemberTableViewCell.swift in Sources */,
+				D6FBD2002519D74000B5863D /* AppDelegate.swift in Sources */,
+				D6FBD2022519D74000B5863D /* SceneDelegate.swift in Sources */,
+				D6561E5F251B0623002D42B1 /* MeetingDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FBD20E2519D74200B5863D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FBD2172519D74200B5863D /* BookMyMeetingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FBD2192519D74200B5863D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FBD2222519D74200B5863D /* BookMyMeetingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6FBD2142519D74200B5863D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FBD1FB2519D74000B5863D /* BookMyMeeting */;
+			targetProxy = D6FBD2132519D74200B5863D /* PBXContainerItemProxy */;
+		};
+		D6FBD21F2519D74200B5863D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FBD1FB2519D74000B5863D /* BookMyMeeting */;
+			targetProxy = D6FBD21E2519D74200B5863D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6FBD2052519D74000B5863D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6FBD2062519D74000B5863D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6FBD20A2519D74200B5863D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6FBD20B2519D74200B5863D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6FBD2242519D74200B5863D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6FBD2252519D74200B5863D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6FBD2272519D74200B5863D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2EF4AA3E2252C752A43D9A /* Pods-BookMyMeeting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QYTV3FPN;
+				INFOPLIST_FILE = BookMyMeeting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.BookMyMeeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D6FBD2282519D74200B5863D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADACCEF4D720D7D9A27BDB0A /* Pods-BookMyMeeting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8QYTV3FPN;
+				INFOPLIST_FILE = BookMyMeeting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.BookMyMeeting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D6FBD22A2519D74200B5863D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0A8B777A19BC8431523F71 /* Pods-BookMyMeetingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookMyMeetingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.BookMyMeetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMyMeeting.app/BookMyMeeting";
+			};
+			name = Debug;
+		};
+		D6FBD22B2519D74200B5863D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2B0BD604C2992A773845E7 /* Pods-BookMyMeetingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookMyMeetingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.BookMyMeetingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookMyMeeting.app/BookMyMeeting";
+			};
+			name = Release;
+		};
+		D6FBD22D2519D74200B5863D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67BE2B9427B406D223DEB2ED /* Pods-BookMyMeeting-BookMyMeetingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookMyMeetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.BookMyMeetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookMyMeeting;
+			};
+			name = Debug;
+		};
+		D6FBD22E2519D74200B5863D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1C352614A9E159419108EE /* Pods-BookMyMeeting-BookMyMeetingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BookMyMeetingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RubicoIT.BookMyMeetingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookMyMeeting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6FBD1F72519D74000B5863D /* Build configuration list for PBXProject "BookMyMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FBD2242519D74200B5863D /* Debug */,
+				D6FBD2252519D74200B5863D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FBD2262519D74200B5863D /* Build configuration list for PBXNativeTarget "BookMyMeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FBD2272519D74200B5863D /* Debug */,
+				D6FBD2282519D74200B5863D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FBD2292519D74200B5863D /* Build configuration list for PBXNativeTarget "BookMyMeetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FBD22A2519D74200B5863D /* Debug */,
+				D6FBD22B2519D74200B5863D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FBD22C2519D74200B5863D /* Build configuration list for PBXNativeTarget "BookMyMeetingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FBD22D2519D74200B5863D /* Debug */,
+				D6FBD22E2519D74200B5863D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FBD1F42519D74000B5863D /* Project object */;
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Messagers List View Controller-->
+        <scene sceneID="JgG-yN-PWV">
+            <objects>
+                <viewController storyboardIdentifier="MessagersListViewController" id="Y0l-fA-xWF" customClass="MessagersListViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fPP-xH-v3t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="Vew-Ma-EeD">
+                                <rect key="frame" x="16" y="52" width="382" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="XTn-1Y-0sb"/>
+                                </constraints>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Y0l-fA-xWF" id="9Fj-De-cV7"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="SQr-Pp-oQV">
+                                <rect key="frame" x="10" y="140.5" width="399" height="721.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y0l-fA-xWF" id="1I4-iS-Q1z"/>
+                                    <outlet property="delegate" destination="Y0l-fA-xWF" id="YKY-eZ-SCM"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Messages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66p-h2-fED">
+                                <rect key="frame" x="16" y="108" width="86" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="o2d-t7-c0F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9HH-dz-C92" firstAttribute="trailing" secondItem="SQr-Pp-oQV" secondAttribute="trailing" constant="5" id="736-bV-vKz"/>
+                            <constraint firstItem="66p-h2-fED" firstAttribute="top" secondItem="Vew-Ma-EeD" secondAttribute="bottom" constant="12" id="Bu4-Vp-ckP"/>
+                            <constraint firstItem="Vew-Ma-EeD" firstAttribute="leading" secondItem="9HH-dz-C92" secondAttribute="leading" constant="16" id="Cj8-G6-ydF"/>
+                            <constraint firstItem="Vew-Ma-EeD" firstAttribute="top" secondItem="9HH-dz-C92" secondAttribute="top" constant="8" id="LRE-xH-7md"/>
+                            <constraint firstItem="SQr-Pp-oQV" firstAttribute="top" secondItem="66p-h2-fED" secondAttribute="bottom" constant="12" id="Qn5-2p-KdY"/>
+                            <constraint firstAttribute="trailing" secondItem="Vew-Ma-EeD" secondAttribute="trailing" constant="16" id="e80-t0-85b"/>
+                            <constraint firstItem="66p-h2-fED" firstAttribute="leading" secondItem="9HH-dz-C92" secondAttribute="leading" constant="16" id="enC-s7-4p5"/>
+                            <constraint firstItem="9HH-dz-C92" firstAttribute="bottom" secondItem="SQr-Pp-oQV" secondAttribute="bottom" id="rC6-x9-7T1"/>
+                            <constraint firstItem="SQr-Pp-oQV" firstAttribute="leading" secondItem="9HH-dz-C92" secondAttribute="leading" constant="10" id="upT-dP-yQr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9HH-dz-C92"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fQi-Vh-igv"/>
+                    <connections>
+                        <outlet property="messagersTableView" destination="SQr-Pp-oQV" id="VZp-7A-EqG"/>
+                        <outlet property="searchBar" destination="Vew-Ma-EeD" id="WCd-Rg-wjq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CAk-og-Py7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613.04347826086962" y="103.79464285714285"/>
+        </scene>
+        <!--Chat Screen View Controller-->
+        <scene sceneID="M43-nw-ARh">
+            <objects>
+                <viewController storyboardIdentifier="ChatScreenViewController" id="oW8-hd-waM" customClass="ChatScreenViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Qr-p2-Sja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="qFS-B2-szA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Skb-cs-3eo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1379.7101449275362" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+</document>

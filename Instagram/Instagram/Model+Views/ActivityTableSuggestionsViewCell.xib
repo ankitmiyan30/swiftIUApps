@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActivityTableSuggestionsViewCell" rowHeight="72" id="GHL-y7-OB4" customClass="ActivityTableSuggestionsViewCell" customModule="Instagram" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="331" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GHL-y7-OB4" id="yK5-Ph-sen">
+                <rect key="frame" x="0.0" y="0.0" width="331" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dummy2" translatesAutoresizingMaskIntoConstraints="NO" id="YCB-iM-XY0">
+                        <rect key="frame" x="8" y="11" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="1hh-if-356"/>
+                            <constraint firstAttribute="width" constant="50" id="Rva-Oc-3Tr"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Nel-s7-ReN">
+                        <rect key="frame" x="66" y="11" width="121.5" height="47.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="iam_ankitsingh" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AK7-vF-8FG">
+                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ankit Singh" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SZ-UO-QmH">
+                                <rect key="frame" x="0.0" y="16.5" width="121.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followed by sid_jack" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g55-Me-Kfr">
+                                <rect key="frame" x="0.0" y="32" width="121.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8s-H9-0Q4">
+                        <rect key="frame" x="260" y="25" width="49" height="22"/>
+                        <color key="backgroundColor" name="incomingAudioMessageTint"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="dcf-fK-lZd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <state key="normal" title="  Follow  ">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lw7-NK-krU">
+                        <rect key="frame" x="313" y="25" width="2" height="22"/>
+                        <color key="backgroundColor" name="collectionViewBackground"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="2" id="KTI-f3-qTy"/>
+                            <constraint firstAttribute="height" constant="22" id="LNs-9n-D0v"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="   " image="line.horizontal.3" catalog="system">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Nel-s7-ReN" firstAttribute="leading" secondItem="YCB-iM-XY0" secondAttribute="trailing" constant="8" id="2aR-Td-Xd0"/>
+                    <constraint firstItem="Lw7-NK-krU" firstAttribute="leading" secondItem="N8s-H9-0Q4" secondAttribute="trailing" constant="4" id="5Yg-B0-vhN"/>
+                    <constraint firstAttribute="trailing" secondItem="Lw7-NK-krU" secondAttribute="trailing" constant="16" id="6H6-Ky-fhv"/>
+                    <constraint firstItem="Nel-s7-ReN" firstAttribute="centerY" secondItem="yK5-Ph-sen" secondAttribute="centerY" constant="-1.25" id="Aoa-E9-xtd"/>
+                    <constraint firstItem="N8s-H9-0Q4" firstAttribute="centerY" secondItem="yK5-Ph-sen" secondAttribute="centerY" id="ISK-5t-1i7"/>
+                    <constraint firstItem="YCB-iM-XY0" firstAttribute="leading" secondItem="yK5-Ph-sen" secondAttribute="leading" constant="8" id="ZAb-3Q-jUs"/>
+                    <constraint firstItem="YCB-iM-XY0" firstAttribute="centerY" secondItem="yK5-Ph-sen" secondAttribute="centerY" id="h8C-eO-ylf"/>
+                    <constraint firstItem="Lw7-NK-krU" firstAttribute="centerY" secondItem="yK5-Ph-sen" secondAttribute="centerY" id="kDX-nk-Azh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="uRe-Id-Pfs"/>
+            <point key="canvasLocation" x="113.768115942029" y="-50.223214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dummy2" width="960" height="1200"/>
+        <image name="line.horizontal.3" catalog="system" width="64" height="32"/>
+        <namedColor name="collectionViewBackground">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="incomingAudioMessageTint">
+            <color red="0.0" green="0.4779999852180481" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

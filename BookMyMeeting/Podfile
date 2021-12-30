@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'BookMyMeeting' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+ 
+pod 'Firebase/Core'
+pod 'Firebase/RemoteConfig'
+pod 'Firebase/Auth'
+pod 'GoogleSignIn'
+pod 'Firebase/Analytics'
+pod 'SwiftyJSON', '~> 4.0'
+pod 'IQKeyboardManagerSwift'
+pod 'BulletinBoard'
+pod 'Kingfisher/SwiftUI'
+pod 'GoogleAPIClient'
+pod 'GTMOAuth2'
+pod 'Firebase/Database'
+pod "TTGSnackbar"
+
+  # Pods for BookMyMeeting
+
+  target 'BookMyMeetingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BookMyMeetingUITests' do
+    # Pods for testing
+  end
+
+end

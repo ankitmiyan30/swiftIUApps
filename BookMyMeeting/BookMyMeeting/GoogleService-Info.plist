@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>927271722770-r0cloour88rja12ivug5t8efqci252in.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.927271722770-r0cloour88rja12ivug5t8efqci252in</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBTyAzMExP85aosA7kc4L5B9tywOQ0z5Bc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>927271722770</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.RubicoIT.BookMyMeeting</string>
+	<key>PROJECT_ID</key>
+	<string>checkroom-afeaa</string>
+	<key>STORAGE_BUCKET</key>
+	<string>checkroom-afeaa.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:927271722770:ios:98e2f9a1b85b9c3751ddcb</string>
+	<key>DATABASE_URL</key>
+	<string>https://checkroom-afeaa.firebaseio.com</string>
+</dict>
+</plist>

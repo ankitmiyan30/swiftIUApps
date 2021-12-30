@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MeetingMemberTableViewCell" rowHeight="39" id="KGk-i7-Jjw" customClass="MeetingMemberTableViewCell" customModule="BookMyMeeting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="39"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHR-sz-Xdd">
+                        <rect key="frame" x="292" y="5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="DYQ-Ud-R26"/>
+                            <constraint firstAttribute="height" constant="24" id="OTP-Ds-JA5"/>
+                        </constraints>
+                        <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.82868685789999996" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="trash" catalog="system"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2Z-YA-Zas">
+                        <rect key="frame" x="0.0" y="5" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="MYA-Xg-88V"/>
+                            <constraint firstAttribute="height" constant="24" id="qLf-BW-WCd"/>
+                        </constraints>
+                        <color key="tintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.82868685789999996" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="person" catalog="system"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1O-A3-b1y">
+                        <rect key="frame" x="32" y="5" width="252" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="iVm-eL-MAW"/>
+                        </constraints>
+                        <attributedString key="attributedText"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="r1O-A3-b1y" firstAttribute="leading" secondItem="k2Z-YA-Zas" secondAttribute="trailing" constant="8" id="1PF-j1-ewk"/>
+                    <constraint firstAttribute="trailing" secondItem="dHR-sz-Xdd" secondAttribute="trailing" constant="4" id="8u9-uV-9UT"/>
+                    <constraint firstItem="k2Z-YA-Zas" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="QOK-z1-xK4"/>
+                    <constraint firstItem="dHR-sz-Xdd" firstAttribute="leading" secondItem="r1O-A3-b1y" secondAttribute="trailing" constant="8" id="fYR-8X-FbL"/>
+                    <constraint firstItem="k2Z-YA-Zas" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ki4-qt-VVg"/>
+                    <constraint firstItem="dHR-sz-Xdd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="mOe-0K-tPZ"/>
+                    <constraint firstItem="r1O-A3-b1y" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="mjT-j6-1Gi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="memberName" destination="r1O-A3-b1y" id="mK0-jG-HNU"/>
+            </connections>
+            <point key="canvasLocation" x="-197.10144927536234" y="45.870535714285715"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+    </resources>
+</document>

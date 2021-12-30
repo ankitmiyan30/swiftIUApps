@@ -1,0 +1,6 @@
+framework module Pods_BookMyMeetingTests {
+  umbrella header "Pods-BookMyMeetingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

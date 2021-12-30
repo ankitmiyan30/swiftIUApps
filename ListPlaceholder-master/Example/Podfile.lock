@@ -1,0 +1,27 @@
+PODS:
+  - BulletinBoard (4.1.2)
+  - ListPlaceholder (1.4)
+  - TTGSnackbar (1.10.3)
+
+DEPENDENCIES:
+  - BulletinBoard
+  - ListPlaceholder (from `../`)
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - BulletinBoard
+    - TTGSnackbar
+
+EXTERNAL SOURCES:
+  ListPlaceholder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BulletinBoard: 1c0cb191b6c6245d08f51bd2445f1e36414ec0ed
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+  TTGSnackbar: 97c033600de8a9c8f4a093f25a08543a03946bcc
+
+PODFILE CHECKSUM: 9d2f10600938ff85835c62801dd7fd1e2d7f7af8
+
+COCOAPODS: 1.9.3
